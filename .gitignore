@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.env*.local
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
+.skills/
+codex-plugin-build-polished-app-ui/
