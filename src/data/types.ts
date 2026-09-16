@@ -5,6 +5,11 @@ export type Text = {
   en: string;
 };
 
+export type TopicRef = {
+  slug: string;
+  name: Text;
+};
+
 export type SourceRef = {
   name: string;
   lang: Locale;
@@ -17,14 +22,28 @@ export type TimelineItem = {
   text: Text;
 };
 
+export type StorySummary = {
+  slug: string;
+  date: string;
+  topicSlug: string;
+  rank: number | null;
+  section: "must" | "more";
+  title: Text;
+  dek: Text;
+  topic: TopicRef;
+  sourceCount: number;
+  sourceNames: string[];
+};
+
 export type Story = {
   slug: string;
   date: string;
   topicSlug: string;
-  rank?: number;
+  rank: number | null;
   section: "must" | "more";
   title: Text;
   dek: Text;
+  topic: TopicRef;
   synthesis: Text[];
   sources: SourceRef[];
   timeline: TimelineItem[];
@@ -41,9 +60,9 @@ export type Briefing = {
   updatedAt: string;
   title: Text;
   lede: Text[];
-  mustRead: string[];
+  mustRead: StorySummary[];
   moreHeading: Text;
-  more: string[];
+  more: StorySummary[];
   pulse: {
     clusters: number;
     articles: number;
@@ -52,6 +71,15 @@ export type Briefing = {
     totalSources: number;
     topics: PulseTopic[];
   };
+};
+
+export type BriefingListItem = {
+  date: string;
+  weekday: Text;
+  title: Text;
+  updatedAt: string;
+  mustReadCount: number;
+  clusters: number;
 };
 
 export type SourceStatus = "ok" | "late" | "bad";
@@ -69,4 +97,20 @@ export type Topic = {
   slug: string;
   name: Text;
   blurb: Text;
+  clusterCount: number;
 };
+
+export type TopicDetail = Topic & {
+  stories: StorySummary[];
+};
+
+export type Meta = {
+  currentDate: string;
+  timezone: string;
+};
+
+export type MockStory = Omit<Story, "topic" | "rank"> & {
+  rank?: number;
+};
+
+export type MockTopic = Omit<Topic, "clusterCount">;

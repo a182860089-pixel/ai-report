@@ -1,3 +1,4 @@
+/** Seed source for backend/fixtures. Runtime pages must not import this module. */
 import { lateBriefings } from "./briefings-late";
 import { briefingMeta as earlyBriefings } from "./briefings";
 import { seedStoriesEarly } from "./stories-seeds";

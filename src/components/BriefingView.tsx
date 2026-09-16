@@ -1,16 +1,13 @@
 import Link from "next/link";
-import { CURRENT_DATE, getStories, getTopic } from "@/data";
-import type { Briefing, Story } from "@/data/types";
+import type { Briefing, StorySummary } from "@/data/types";
 import { formatLongDate } from "@/lib/dates";
 import { T } from "./Text";
 
-function sourceLine(story: Story) {
-  const names = story.sources.slice(0, 3).map((item) => item.name).join(" · ");
-  return names;
+function sourceLine(story: StorySummary) {
+  return story.sourceNames.join(" · ");
 }
 
-function StoryRow({ story, index }: { story: Story; index: number }) {
-  const topic = getTopic(story.topicSlug);
+function StoryRow({ story, index }: { story: StorySummary; index: number }) {
   return (
     <Link className="story-row press" href={`/story/${story.slug}`}>
       <span className="num">{String(index + 1).padStart(2, "0")}</span>
@@ -22,8 +19,12 @@ function StoryRow({ story, index }: { story: Story; index: number }) {
           <T zh={story.dek.zh} en={story.dek.en} />
         </p>
         <div className="meta">
-          {topic ? <span className="chip"><T zh={topic.name.zh} en={topic.name.en} /></span> : null}
-          {sourceLine(story)} · {story.sources.length}{" "}
+          {story.topic ? (
+            <span className="chip">
+              <T zh={story.topic.name.zh} en={story.topic.name.en} />
+            </span>
+          ) : null}
+          {sourceLine(story)} · {story.sourceCount}{" "}
           <T zh="信源" en="sources" />
         </div>
       </span>
@@ -31,11 +32,17 @@ function StoryRow({ story, index }: { story: Story; index: number }) {
   );
 }
 
-export function BriefingView({ briefing }: { briefing: Briefing }) {
-  const must = getStories(briefing.mustRead);
-  const more = getStories(briefing.more);
+export function BriefingView({
+  briefing,
+  currentDate
+}: {
+  briefing: Briefing;
+  currentDate: string;
+}) {
+  const must = briefing.mustRead;
+  const more = briefing.more;
   const longDate = formatLongDate(briefing.date);
-  const isToday = briefing.date === CURRENT_DATE;
+  const isToday = briefing.date === currentDate;
 
   return (
     <div className="home">
@@ -73,7 +80,7 @@ export function BriefingView({ briefing }: { briefing: Briefing }) {
                   <T zh={story.title.zh} en={story.title.en} />
                 </strong>
                 <span className="note">
-                  {story.sources[0]?.name} · {story.sources.length}{" "}
+                  {story.sourceNames[0]} · {story.sourceCount}{" "}
                   <T zh="信源" en="sources" />
                 </span>
               </Link>

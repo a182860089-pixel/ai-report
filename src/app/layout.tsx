@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
 import { LocaleProvider, LOCALE_BOOT } from "@/lib/locale";
 import "./globals.css";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: {
@@ -24,13 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="zh-CN" data-locale="zh" suppressHydrationWarning>
       <body>
         <script dangerouslySetInnerHTML={{ __html: LOCALE_BOOT }} />
-        <LocaleProvider>
-          <div className="site">
-            <Header />
-            <main className="main">{children}</main>
-            <Footer />
-          </div>
-        </LocaleProvider>
+        <LocaleProvider>{children}</LocaleProvider>
       </body>
     </html>
   );

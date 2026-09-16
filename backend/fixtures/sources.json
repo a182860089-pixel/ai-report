@@ -1,0 +1,144 @@
+[
+  {
+    "id": "openai-blog",
+    "name": "OpenAI Blog",
+    "status": "ok",
+    "lastFetch": "06:12",
+    "todayCount": 2,
+    "detail": {
+      "zh": "正常 · 06:12 · 今日 2 篇",
+      "en": "Healthy · 06:12 · 2 today"
+    },
+    "homepageUrl": "https://openai.com/news",
+    "feedUrl": "https://openai.com/news/rss.xml"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic News",
+    "status": "ok",
+    "lastFetch": "06:28",
+    "todayCount": 1,
+    "detail": {
+      "zh": "正常 · 06:28 · 今日 1 篇",
+      "en": "Healthy · 06:28 · 1 today"
+    }
+  },
+  {
+    "id": "deepmind",
+    "name": "DeepMind",
+    "status": "ok",
+    "lastFetch": "06:51",
+    "todayCount": 1,
+    "detail": {
+      "zh": "正常 · 06:51 · 今日 1 篇",
+      "en": "Healthy · 06:51 · 1 today"
+    }
+  },
+  {
+    "id": "jiqizhixin",
+    "name": "机器之心",
+    "status": "ok",
+    "lastFetch": "07:05",
+    "todayCount": 6,
+    "detail": {
+      "zh": "正常 · 07:05 · 今日 6 篇",
+      "en": "Healthy · 07:05 · 6 today"
+    }
+  },
+  {
+    "id": "qbitai",
+    "name": "量子位",
+    "status": "late",
+    "lastFetch": "05:40",
+    "todayCount": 4,
+    "detail": {
+      "zh": "延迟 · 05:40 · 今日 4 篇",
+      "en": "Late · 05:40 · 4 today"
+    }
+  },
+  {
+    "id": "hf",
+    "name": "Hugging Face",
+    "status": "ok",
+    "lastFetch": "07:11",
+    "todayCount": 3,
+    "detail": {
+      "zh": "正常 · 07:11 · 今日 3 篇",
+      "en": "Healthy · 07:11 · 3 today"
+    },
+    "homepageUrl": "https://huggingface.co/blog",
+    "feedUrl": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+    "id": "arxiv",
+    "name": "arXiv cs.AI",
+    "status": "ok",
+    "lastFetch": "06:00",
+    "todayCount": 18,
+    "detail": {
+      "zh": "正常 · 06:00 · 今日 18 篇",
+      "en": "Healthy · 06:00 · 18 today"
+    },
+    "homepageUrl": "https://arxiv.org/list/cs.AI/recent",
+    "feedUrl": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  {
+    "id": "hn",
+    "name": "Hacker News",
+    "status": "ok",
+    "lastFetch": "07:18",
+    "todayCount": 9,
+    "detail": {
+      "zh": "正常 · 07:18 · 今日 9 条",
+      "en": "Healthy · 07:18 · 9 today"
+    },
+    "homepageUrl": "https://news.ycombinator.com",
+    "feedUrl": "https://hnrss.org/frontpage"
+  },
+  {
+    "id": "github",
+    "name": "GitHub Trending",
+    "status": "ok",
+    "lastFetch": "07:00",
+    "todayCount": 5,
+    "detail": {
+      "zh": "正常 · 07:00 · 今日 5 条",
+      "en": "Healthy · 07:00 · 5 today"
+    }
+  },
+  {
+    "id": "verge",
+    "name": "The Verge",
+    "status": "ok",
+    "lastFetch": "06:40",
+    "todayCount": 2,
+    "detail": {
+      "zh": "正常 · 06:40 · 今日 2 篇",
+      "en": "Healthy · 06:40 · 2 today"
+    },
+    "homepageUrl": "https://www.theverge.com",
+    "feedUrl": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+    "id": "36kr",
+    "name": "36氪",
+    "status": "late",
+    "lastFetch": "04:12",
+    "todayCount": 3,
+    "detail": {
+      "zh": "延迟 · 04:12 · 今日 3 篇",
+      "en": "Late · 04:12 · 3 today"
+    }
+  },
+  {
+    "id": "lab-rss",
+    "name": "某实验室 RSS",
+    "status": "bad",
+    "lastFetch": "—",
+    "todayCount": 0,
+    "detail": {
+      "zh": "失败 · 连续 2 次 · 已隔离",
+      "en": "Failed · 2 times in a row · quarantined"
+    }
+  }
+]

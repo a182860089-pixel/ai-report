@@ -376,6 +376,11 @@ article {
   border-bottom: 1px solid var(--line);
 }
 
+button.back {
+  border: 0;
+  background: transparent;
+}
+
 .back {
   display: inline-flex;
   align-items: center;

@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "models",
+    "name": {
+      "zh": "模型发布",
+      "en": "Model launches"
+    },
+    "blurb": {
+      "zh": "GPT-5.5 降价 · Claude 记忆层",
+      "en": "GPT-5.5 price cut · Claude memory"
+    }
+  },
+  {
+    "slug": "open-source",
+    "name": {
+      "zh": "开源权重",
+      "en": "Open weights"
+    },
+    "blurb": {
+      "zh": "Kimi 部分开源 · Llama 4.1 8B",
+      "en": "Kimi partial release · Llama 4.1 8B"
+    }
+  },
+  {
+    "slug": "agents",
+    "name": {
+      "zh": "智能体",
+      "en": "Agents"
+    },
+    "blurb": {
+      "zh": "GLM Agent 基准 · Copilot 多仓库",
+      "en": "GLM agent bench · Copilot multi-repo"
+    }
+  },
+  {
+    "slug": "chips",
+    "name": {
+      "zh": "芯片",
+      "en": "Chips"
+    },
+    "blurb": {
+      "zh": "Rubin 细节 · 推理卡缺货",
+      "en": "Rubin details · inference GPUs short"
+    }
+  },
+  {
+    "slug": "policy",
+    "name": {
+      "zh": "政策",
+      "en": "Policy"
+    },
+    "blurb": {
+      "zh": "EU AI Act 第二阶段",
+      "en": "EU AI Act phase two"
+    }
+  },
+  {
+    "slug": "robotics",
+    "name": {
+      "zh": "机器人",
+      "en": "Robotics"
+    },
+    "blurb": {
+      "zh": "Gemini Robotics 2",
+      "en": "Gemini Robotics 2"
+    }
+  },
+  {
+    "slug": "on-device",
+    "name": {
+      "zh": "端侧",
+      "en": "On-device"
+    },
+    "blurb": {
+      "zh": "手机 30 tok/s",
+      "en": "30 tok/s on phones"
+    }
+  },
+  {
+    "slug": "industry-cn",
+    "name": {
+      "zh": "中文产业",
+      "en": "China industry"
+    },
+    "blurb": {
+      "zh": "通义座舱签约",
+      "en": "Tongyi cockpit deals"
+    }
+  },
+  {
+    "slug": "research",
+    "name": {
+      "zh": "研究",
+      "en": "Research"
+    },
+    "blurb": {
+      "zh": "扩散语言模型 · 新基准",
+      "en": "Diffusion LMs · new benches"
+    }
+  },
+  {
+    "slug": "safety",
+    "name": {
+      "zh": "安全",
+      "en": "Safety"
+    },
+    "blurb": {
+      "zh": "记忆与数据保留",
+      "en": "Memory and retention"
+    }
+  }
+]

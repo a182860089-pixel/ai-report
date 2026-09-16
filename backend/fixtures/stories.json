@@ -1,0 +1,2800 @@
+[
+  {
+    "slug": "gpt-55-price",
+    "date": "2026-09-14",
+    "topicSlug": "models",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "GPT-5.5 API 推理价腰斩，1M 上下文改默认",
+      "en": "GPT-5.5 API inference halved; 1M context becomes default"
+    },
+    "dek": {
+      "zh": "价格战打到推理层。媒体和开发者都在算：长文档工作流会不会从 Claude 回流。",
+      "en": "The price war hit inference. Press and developers are both doing the math: will long-doc workflows flow back from Claude?"
+    },
+    "synthesis": [
+      {
+        "zh": "OpenAI 把长上下文从加价项改成默认能力，同时砍推理单价。表面是促销，实际是在抢文档、代码库和客服日志这类「长输入、短输出」的工作负载。",
+        "en": "OpenAI turned long context from a surcharge into a default, and cut inference unit price. The promo is cover. The target is long-in, short-out work: documents, repos, support logs."
+      },
+      {
+        "zh": "中文报道多在写「降价 50%」，英文报道在写 1M 默认和批处理折扣。事件本身没有分歧，分歧在谁会被抢走：Claude 的长上下文口碑，还是 Gemini 的价格地板。",
+        "en": "Chinese coverage leads with “50% off.” English coverage leads with 1M default and batch discounts. The facts are not in dispute. The fight is over who loses: Claude’s long-context reputation, or Gemini’s price floor."
+      }
+    ],
+    "sources": [
+      {
+        "name": "OpenAI Blog",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:12"
+      },
+      {
+        "name": "The Verge",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:05"
+      },
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "讨论",
+          "en": "Forum"
+        },
+        "time": "07:18"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:22"
+      },
+      {
+        "name": "GitHub Changelog",
+        "lang": "en",
+        "kind": {
+          "zh": "产品",
+          "en": "Product"
+        },
+        "time": "08:01"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:12",
+        "text": {
+          "zh": "OpenAI 发布博客与价格表，1M 上下文改为 API 默认。",
+          "en": "OpenAI posts the blog and price sheet; 1M context becomes the API default."
+        }
+      },
+      {
+        "time": "06:40",
+        "text": {
+          "zh": "The Verge 对比例：128k 以上工作负载成本大约腰斩。",
+          "en": "The Verge runs the comparison: workloads over 128k roughly drop by half."
+        }
+      },
+      {
+        "time": "07:05",
+        "text": {
+          "zh": "机器之心、量子位同步，标题集中在降价而非上下文。",
+          "en": "Jiqizhixin and QbitAI follow; headlines stay on the cut, not the context window."
+        }
+      },
+      {
+        "time": "08:20",
+        "text": {
+          "zh": "开发者对照帖出现：批处理、缓存命中、长文档 RAG 的新账。",
+          "en": "Developer comparison posts appear: batch, cache hits, and the new long-doc RAG bill."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "claude-memory",
+    "date": "2026-09-14",
+    "topicSlug": "models",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "Claude 记忆层上线，个人开、企业关",
+      "en": "Claude memory ships: on for consumers, off for work"
+    },
+    "dek": {
+      "zh": "跨会话记忆变成产品能力，也变成合规开关。这不是聊天记录，是可检索的用户状态。",
+      "en": "Cross-session memory is now a product, and a compliance switch. This is not chat history. It is retrievable user state."
+    },
+    "synthesis": [
+      {
+        "zh": "Anthropic 把「还记得上次」做成一层可开关的记忆，而不是藏在上下文窗口里的小聪明。个人默认开，企业默认关，这条分割线写进了发布说明第一屏。",
+        "en": "Anthropic made “it remembers last time” a switchable layer, not a parlor trick inside the context window. Consumer default on, enterprise default off — the split is on the first screen of the notes."
+      },
+      {
+        "zh": "它会改变周报、客服和顾问类工作流，也会把数据保留从日志问题升级成画像问题。法务要的不是更好的摘要，是关闭、导出、删除三件套。",
+        "en": "It will change weekly notes, support, and advisory workflows. It also upgrades retention from a logging issue to a profiling issue. Counsel does not want a nicer summary. They want off, export, and delete."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:28"
+      },
+      {
+        "name": "Wired",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "06:55"
+      },
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:08"
+      },
+      {
+        "name": "The Information",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:31"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:28",
+        "text": {
+          "zh": "Anthropic 发布记忆层，企业租户默认关闭。",
+          "en": "Anthropic ships memory; enterprise tenants default off."
+        }
+      },
+      {
+        "time": "06:55",
+        "text": {
+          "zh": "Wired 把它写成「可检索的用户状态」。",
+          "en": "Wired frames it as retrievable user state."
+        }
+      },
+      {
+        "time": "07:08",
+        "text": {
+          "zh": "36氪关注个人版默认开启。",
+          "en": "36Kr focuses on the consumer default-on."
+        }
+      },
+      {
+        "time": "07:44",
+        "text": {
+          "zh": "企业客户开始问导出和删除 API。",
+          "en": "Enterprise customers start asking for export and delete APIs."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "kimi-open-weights",
+    "date": "2026-09-14",
+    "topicSlug": "open-source",
+    "rank": 3,
+    "section": "must",
+    "title": {
+      "zh": "Kimi 新模型部分开源，LMSYS 前五",
+      "en": "Kimi partially open-sources a new model; LMSYS top five"
+    },
+    "dek": {
+      "zh": "中文场的叙事从「能用」变成「可部署」。权重、许可和基准分数被绑在同一条新闻里。",
+      "en": "The Chinese-language story shifts from “it works” to “it deploys.” Weights, license, and bench scores are one item."
+    },
+    "synthesis": [
+      {
+        "zh": "月之暗面放出部分权重，并在 LMSYS 挤进前五。真正被转发的不是聊天截图，是许可条款和私有化部署说明。",
+        "en": "Moonshot releases partial weights and cracks LMSYS top five. What gets forwarded is not chat screenshots. It is the license and the private-deploy note."
+      },
+      {
+        "zh": "「部分开源」三个字会在本周被律师和社区各读一遍。能微调的层、不能商用的工具调用、以及基准是否可复现，会拆成三条后续。",
+        "en": "“Partial open source” will be read twice this week, once by lawyers and once by the community. Which layers fine-tune, which tool-use stays closed, and whether the bench reproduces — those become three follow-ups."
+      }
+    ],
+    "sources": [
+      {
+        "name": "月之暗面",
+        "lang": "zh",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:48"
+      },
+      {
+        "name": "Hugging Face",
+        "lang": "en",
+        "kind": {
+          "zh": "产品",
+          "en": "Product"
+        },
+        "time": "07:11"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:19"
+      },
+      {
+        "name": "LMSYS",
+        "lang": "en",
+        "kind": {
+          "zh": "基准",
+          "en": "Benchmark"
+        },
+        "time": "07:33"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:48",
+        "text": {
+          "zh": "Kimi 宣布部分权重与许可。",
+          "en": "Kimi announces partial weights and license."
+        }
+      },
+      {
+        "time": "07:11",
+        "text": {
+          "zh": "Hugging Face 模型卡上线。",
+          "en": "The Hugging Face model card goes up."
+        }
+      },
+      {
+        "time": "07:33",
+        "text": {
+          "zh": "LMSYS 排行更新，进入前五。",
+          "en": "LMSYS updates; it enters the top five."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gemini-robotics-2",
+    "date": "2026-09-14",
+    "topicSlug": "robotics",
+    "rank": 4,
+    "section": "must",
+    "title": {
+      "zh": "Gemini Robotics 2 刷新仓库拣选基准",
+      "en": "Gemini Robotics 2 resets the warehouse-picking bench"
+    },
+    "dek": {
+      "zh": "DeepMind 把多模态模型重新包装成机器人策略。工业演示多于落地时间表。",
+      "en": "DeepMind repackages a multimodal model as a robot policy. Industrial demos outrun any shipping calendar."
+    },
+    "synthesis": [
+      {
+        "zh": "仓库拣选被写成主指标，视频里的成功率很好看。现场集成、夹具、安全停机这些句子仍在附录。",
+        "en": "Warehouse picking is the headline metric; the video success rate looks clean. Integration, grippers, and safe-stop still live in the appendix."
+      }
+    ],
+    "sources": [
+      {
+        "name": "DeepMind",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:51"
+      },
+      {
+        "name": "TechCrunch",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:14"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:29"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:51",
+        "text": {
+          "zh": "DeepMind 发布 Gemini Robotics 2。",
+          "en": "DeepMind releases Gemini Robotics 2."
+        }
+      },
+      {
+        "time": "07:14",
+        "text": {
+          "zh": "TechCrunch 强调拣选基准，不给交付日期。",
+          "en": "TechCrunch stresses the picking bench and gives no ship date."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "llama-41-8b",
+    "date": "2026-09-14",
+    "topicSlug": "on-device",
+    "rank": 5,
+    "section": "must",
+    "title": {
+      "zh": "Llama 4.1 8B：手机端 30 tok/s",
+      "en": "Llama 4.1 8B: 30 tok/s on phones"
+    },
+    "dek": {
+      "zh": "Meta 继续压端侧。这条新闻的读者不是研究者，是要做离线助手的应用团队。",
+      "en": "Meta keeps pushing on-device. The reader is not a researcher. It is the app team that needs an offline assistant."
+    },
+    "synthesis": [
+      {
+        "zh": "8B 在旗舰手机上跑到 30 tok/s，足够做输入法、离线翻译和本地摘要。电量和热是下一篇评测，不是今天的新闻。",
+        "en": "8B hits 30 tok/s on flagship phones — enough for keyboards, offline translate, and local summaries. Battery and heat are the next review, not today’s news."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Meta",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:33"
+      },
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "代码",
+          "en": "Code"
+        },
+        "time": "07:00"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:26"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:33",
+        "text": {
+          "zh": "Meta 发布 Llama 4.1 8B 与端侧数字。",
+          "en": "Meta ships Llama 4.1 8B with on-device numbers."
+        }
+      },
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "参考实现和量化脚本进 GitHub。",
+          "en": "Reference builds and quant scripts land on GitHub."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "rubin-supply",
+    "date": "2026-09-14",
+    "topicSlug": "chips",
+    "rank": 6,
+    "section": "must",
+    "title": {
+      "zh": "Rubin 架构细节公布，推理卡仍然缺货",
+      "en": "Rubin architecture details land; inference cards still missing"
+    },
+    "dek": {
+      "zh": "规格单很满，交付日历很空。芯片新闻今天仍然是供应新闻。",
+      "en": "The spec sheet is full. The delivery calendar is empty. Chip news is still supply news."
+    },
+    "synthesis": [
+      {
+        "zh": "Nvidia 把 Rubin 的互连和推理吞吐写得很细。采购关心的仍是：现有推理卡什么时候能提到货。Bloomberg 和财新都把「缺货」放进标题。",
+        "en": "Nvidia is specific on Rubin interconnect and inference throughput. Buyers still want to know when current inference cards actually arrive. Bloomberg and Caixin both put “shortage” in the headline."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Nvidia",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:20"
+      },
+      {
+        "name": "Bloomberg",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "06:58"
+      },
+      {
+        "name": "财新",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:17"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:20",
+        "text": {
+          "zh": "Nvidia 放出 Rubin 架构说明。",
+          "en": "Nvidia posts the Rubin architecture note."
+        }
+      },
+      {
+        "time": "06:58",
+        "text": {
+          "zh": "Bloomberg 把重点放在推理卡交付。",
+          "en": "Bloomberg puts the weight on inference-card delivery."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "eu-ai-act-phase-2",
+    "date": "2026-09-14",
+    "topicSlug": "policy",
+    "rank": 7,
+    "section": "must",
+    "title": {
+      "zh": "欧盟 AI Act 通用模型义务进入第二阶段",
+      "en": "EU AI Act GPAI duties enter phase two"
+    },
+    "dek": {
+      "zh": "评估报告、系统风险和开源豁免边界被一起拿出来吵。政策开始碰到权重发布节奏。",
+      "en": "Eval reports, systemic risk, and open-source exemptions are argued as one bundle. Policy is now touching weight-release cadence."
+    },
+    "synthesis": [
+      {
+        "zh": "第二阶段不再是原则声明。通用模型提供方要交评估、标系统风险、解释开源豁免。开源实验室会问：权重一公布算不算提供方。",
+        "en": "Phase two is not a principles memo. GPAI providers must file evals, mark systemic risk, and explain open-source exemptions. Open labs will ask whether publishing weights makes them a provider."
+      }
+    ],
+    "sources": [
+      {
+        "name": "European Commission",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:05"
+      },
+      {
+        "name": "Reuters",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "06:42"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:12"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:05",
+        "text": {
+          "zh": "欧委会公布第二阶段义务说明。",
+          "en": "The Commission publishes the phase-two duty note."
+        }
+      },
+      {
+        "time": "06:42",
+        "text": {
+          "zh": "Reuters 聚焦开源豁免边界。",
+          "en": "Reuters focuses on the open-source exemption line."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "glm-agent-bench",
+    "date": "2026-09-14",
+    "topicSlug": "agents",
+    "rank": 8,
+    "section": "must",
+    "title": {
+      "zh": "GLM 放出多模态 Agent 基准，中文任务单独切分",
+      "en": "GLM ships a multimodal agent bench with a Chinese split"
+    },
+    "dek": {
+      "zh": "又一个基准。有用的部分是中文工具调用被单独打分，不再混在英文套件里。",
+      "en": "Another bench. The useful part: Chinese tool-use is scored alone, not folded into an English suite."
+    },
+    "synthesis": [
+      {
+        "zh": "智谱把视觉操作、浏览器和中文工具调用拆开打分。英文套件里「看起来能用」的模型，在中文任务上会掉一截。这才是今天值得记的点。",
+        "en": "Zhipu splits visual ops, browser use, and Chinese tool-use. Models that “look fine” on English suites drop on the Chinese split. That is the thing to keep."
+      }
+    ],
+    "sources": [
+      {
+        "name": "清华 / 智谱",
+        "lang": "zh",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:36"
+      },
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "论文",
+          "en": "Paper"
+        },
+        "time": "06:36"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:21"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:36",
+        "text": {
+          "zh": "GLM Agent 基准与论文同步放出。",
+          "en": "The GLM agent bench and paper drop together."
+        }
+      },
+      {
+        "time": "07:21",
+        "text": {
+          "zh": "中文媒体强调中文任务切分。",
+          "en": "Chinese press highlights the Chinese task split."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "diffusion-lm-code",
+    "date": "2026-09-14",
+    "topicSlug": "research",
+    "section": "more",
+    "title": {
+      "zh": "扩散语言模型在代码补全追上自回归",
+      "en": "Diffusion LMs catch autoregressive models on code completion"
+    },
+    "dek": {
+      "zh": "延迟曲线第一次看起来能进编辑器。",
+      "en": "The latency curve looks editor-ready for the first time."
+    },
+    "synthesis": [
+      {
+        "zh": "非自回归解码在代码补全上追平主流自回归模型，且把尾延迟压下来。还不是训练新闻，是编辑器能不能用的新闻。",
+        "en": "Non-autoregressive decoding ties mainstream AR models on code completion and cuts tail latency. This is not a training story. It is an editor-readiness story."
+      }
+    ],
+    "sources": [
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "论文",
+          "en": "Paper"
+        },
+        "time": "06:00"
+      },
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "代码",
+          "en": "Code"
+        },
+        "time": "07:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:00",
+        "text": {
+          "zh": "论文上线，代码补全数字打平。",
+          "en": "The paper lands; code-completion numbers tie."
+        }
+      },
+      {
+        "time": "07:40",
+        "text": {
+          "zh": "参考实现出现在 GitHub。",
+          "en": "A reference implementation appears on GitHub."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hf-free-tier",
+    "date": "2026-09-14",
+    "topicSlug": "open-source",
+    "section": "more",
+    "title": {
+      "zh": "Hugging Face 免费推理额度下调",
+      "en": "Hugging Face cuts the free inference allowance"
+    },
+    "dek": {
+      "zh": "免费演示还能做，免费生产不能再装。",
+      "en": "Free demos still work. Free production does not."
+    },
+    "synthesis": [
+      {
+        "zh": "免费推理额度下调后，教学和 demo 还撑得住，把 HF 当生产推理后端的项目要搬家。这是平台定价，不是模型新闻。",
+        "en": "After the cut, teaching and demos still hold. Projects using HF as a production inference backend need to move. This is platform pricing, not a model story."
+      }
+    ],
+    "sources": [
+      {
+        "name": "HF Blog",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "07:11"
+      },
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "讨论",
+          "en": "Forum"
+        },
+        "time": "07:28"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:11",
+        "text": {
+          "zh": "Hugging Face 宣布免费额度调整。",
+          "en": "Hugging Face announces the free-tier change."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "tongyi-cockpit",
+    "date": "2026-09-14",
+    "topicSlug": "industry-cn",
+    "section": "more",
+    "title": {
+      "zh": "通义与三家车厂签座舱模型",
+      "en": "Tongyi signs cockpit-model deals with three automakers"
+    },
+    "dek": {
+      "zh": "车舱要的是可关麦、可离线、可追责，不是聊天分数。",
+      "en": "Cabins want mute, offline, and accountability — not chat scores."
+    },
+    "synthesis": [
+      {
+        "zh": "签约新闻的重点不是又一个车载助手，是座舱场景把端侧、语音和责任链条写进了合同附件。",
+        "en": "The news is not another in-car assistant. It is that cockpit scenes wrote on-device, voice, and liability into the contract annex."
+      }
+    ],
+    "sources": [
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:02"
+      },
+      {
+        "name": "晚点",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:25"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:02",
+        "text": {
+          "zh": "36氪先报三家车厂签约。",
+          "en": "36Kr reports the three automaker deals first."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "ide-local-8b",
+    "date": "2026-09-13",
+    "topicSlug": "on-device",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "IDE 把本地 8B 补全写成正式设置项",
+      "en": "IDEs promote local 8B completion to a real setting"
+    },
+    "dek": {
+      "zh": "补全不再必须出公网。编辑器把「本地模型」和「云端模型」并列。",
+      "en": "Completion no longer has to leave the building. Editors put local and cloud models side by side."
+    },
+    "synthesis": [
+      {
+        "zh": "两家主流 IDE 在设置里给出本地 8B 补全。默认仍是云，但离线包、模型和缓存路径都露出了产品化的边。",
+        "en": "Two mainstream IDEs add local 8B completion in settings. Cloud stays default, but the offline pack, model, and cache path now look like a product."
+      },
+      {
+        "zh": "这会改写代码隐私叙事：不是「我们不训练你的代码」，而是「代码根本没出门」。",
+        "en": "This rewrites the code-privacy line: not “we do not train on your code,” but “the code never left.”"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub Changelog",
+        "lang": "en",
+        "kind": {
+          "zh": "产品",
+          "en": "Product"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:08"
+      },
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "讨论",
+          "en": "Forum"
+        },
+        "time": "07:22"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:40",
+        "text": {
+          "zh": "编辑器更新说明出现 Local model 开关。",
+          "en": "Editor notes show a Local model toggle."
+        }
+      },
+      {
+        "time": "07:22",
+        "text": {
+          "zh": "开发者开始比本地补全和云端补全的延迟。",
+          "en": "Developers start comparing local vs cloud completion latency."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "copilot-multirepo",
+    "date": "2026-09-13",
+    "topicSlug": "agents",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "Copilot 多仓库上下文进入预览",
+      "en": "Copilot multi-repo context enters preview"
+    },
+    "dek": {
+      "zh": "单文件补全不够了。Agent 要在组织里找接口定义。",
+      "en": "Single-file completion is not enough. The agent has to find interface defs across the org."
+    },
+    "synthesis": [
+      {
+        "zh": "多仓库检索被放进 Copilot 预览。演示是跨服务改接口，风险是权限边界：只读索引还是能开 PR。",
+        "en": "Multi-repo retrieval lands in Copilot preview. The demo is a cross-service interface change. The risk is the permission boundary: read-only index, or it can open PRs."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub Blog",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:18"
+      },
+      {
+        "name": "The New Stack",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:01"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:18",
+        "text": {
+          "zh": "GitHub 宣布多仓库上下文预览。",
+          "en": "GitHub announces multi-repo context preview."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "laptop-quant-8b",
+    "date": "2026-09-13",
+    "topicSlug": "on-device",
+    "rank": 3,
+    "section": "must",
+    "title": {
+      "zh": "量化方案把 8B 塞进 16GB 笔记本",
+      "en": "Quantization fits 8B into a 16GB laptop"
+    },
+    "dek": {
+      "zh": "目标机器不是工作站，是公司标配本。",
+      "en": "The target machine is not a workstation. It is the company laptop."
+    },
+    "synthesis": [
+      {
+        "zh": "新的量化脚本把 8B 的内存占用压到 16GB 机器可跑，并保住补全可用的 perplexity。这是采购新闻：还要不要给每人加内存。",
+        "en": "New quant scripts fit 8B onto 16GB machines without killing completion perplexity. This is a procurement story: do you still upgrade everyone’s RAM?"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Hugging Face",
+        "lang": "en",
+        "kind": {
+          "zh": "产品",
+          "en": "Product"
+        },
+        "time": "06:52"
+      },
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "代码",
+          "en": "Code"
+        },
+        "time": "07:15"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:52",
+        "text": {
+          "zh": "量化卡片给出 16GB 可运行配置。",
+          "en": "The quant card lists a 16GB runnable config."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "code-stays-on-device",
+    "date": "2026-09-13",
+    "topicSlug": "safety",
+    "rank": 4,
+    "section": "must",
+    "title": {
+      "zh": "隐私团队开始推「代码不离机」开关",
+      "en": "Privacy teams start selling a code-stays-local switch"
+    },
+    "dek": {
+      "zh": "这不是模型能力，是采购条款改写成了产品按钮。",
+      "en": "This is not a model skill. It is a procurement clause turned into a button."
+    },
+    "synthesis": [
+      {
+        "zh": "安全团队要的是可审计的本地模式：补全请求不离开网段，日志可关。厂商把这项写成设置页上的一句话。",
+        "en": "Security wants an auditable local mode: completion never leaves the subnet, logs can go off. Vendors put that in one sentence on the settings page."
+      }
+    ],
+    "sources": [
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:04"
+      },
+      {
+        "name": "Wired",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:30"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:04",
+        "text": {
+          "zh": "国内媒体先报「代码不离机」作为卖点。",
+          "en": "Domestic press leads with “code never leaves” as the pitch."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "offline-terminal-agent",
+    "date": "2026-09-13",
+    "topicSlug": "agents",
+    "section": "more",
+    "title": {
+      "zh": "终端 Agent 在无网环境跑测试",
+      "en": "Terminal agents run tests with the network down"
+    },
+    "dek": {
+      "zh": "断网不是故障，是测试夹具。",
+      "en": "No network is not a failure. It is the fixture."
+    },
+    "synthesis": [
+      {
+        "zh": "有人把终端 Agent 的工具调用限制在本地 shell 和测试运行器，断网作为 CI 作业。这比聊天演示更接近工程。",
+        "en": "A terminal agent is boxed to local shell and the test runner, with network-off as a CI job. That is closer to engineering than a chat demo."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "代码",
+          "en": "Code"
+        },
+        "time": "07:44"
+      },
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "讨论",
+          "en": "Forum"
+        },
+        "time": "08:02"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:44",
+        "text": {
+          "zh": "无网 CI 作业说明出现在仓库 README。",
+          "en": "A network-off CI note appears in a repo README."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "anthropic-retention",
+    "date": "2026-09-11",
+    "topicSlug": "safety",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "Anthropic 企业控制台增加数据保留开关",
+      "en": "Anthropic adds retention controls to the enterprise console"
+    },
+    "dek": {
+      "zh": "记忆还没成为今日头条时，保留策略先改了。",
+      "en": "Retention policy moved before memory became the Monday headline."
+    },
+    "synthesis": [
+      {
+        "zh": "企业控制台增加保留窗口、可关闭训练和可导出对话。这是给法务看的页面，不是给模型评测看的页面。",
+        "en": "The enterprise console adds a retention window, a training-off switch, and conversation export. This page is for counsel, not for model evals."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "lang": "en",
+        "kind": {
+          "zh": "一手",
+          "en": "Primary"
+        },
+        "time": "06:22"
+      },
+      {
+        "name": "Wired",
+        "lang": "en",
+        "kind": {
+          "zh": "媒体",
+          "en": "Press"
+        },
+        "time": "07:05"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:22",
+        "text": {
+          "zh": "控制台更新：保留策略可按工作区设置。",
+          "en": "Console update: retention can be set per workspace."
+        }
+      },
+      {
+        "time": "07:05",
+        "text": {
+          "zh": "媒体把它读成记忆功能的前奏。",
+          "en": "Press reads it as a prelude to memory."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "memory-privacy-papers",
+    "date": "2026-09-11",
+    "topicSlug": "safety",
+    "section": "more",
+    "title": {
+      "zh": "跨会话记忆的隐私论文开始集中出现",
+      "en": "Privacy papers on cross-session memory start to cluster"
+    },
+    "dek": {
+      "zh": "威胁模型从「模型记住训练数据」改成「产品记住你」。",
+      "en": "The threat model shifts from “the model memorized training data” to “the product remembers you.”"
+    },
+    "synthesis": [
+      {
+        "zh": "一批隐私论文把跨会话记忆写成独立攻击面：检索泄漏、画像拼接、删除不彻底。下周一的产品发布会把这些句子变成检查清单。",
+        "en": "A cluster of privacy papers treats cross-session memory as its own surface: retrieval leaks, profile stitching, incomplete delete. Next Monday’s product launch will turn those sentences into a checklist."
+      }
+    ],
+    "sources": [
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "论文",
+          "en": "Paper"
+        },
+        "time": "06:00"
+      },
+      {
+        "name": "Twitter/X",
+        "lang": "en",
+        "kind": {
+          "zh": "讨论",
+          "en": "Forum"
+        },
+        "time": "07:18"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "06:00",
+        "text": {
+          "zh": "三篇相关论文同一早出现在 cs.CR。",
+          "en": "Three related papers drop the same morning on cs.CR."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260901-01-research",
+    "date": "2026-09-01",
+    "topicSlug": "research",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "新基准把幻觉拆成三类错误",
+      "en": "New bench splits hallucinations into three error types"
+    },
+    "dek": {
+      "zh": "事实错误、过时、胡编被分开打分，总榜失去意义。",
+      "en": "Factual errors, stale facts, and fabrications get separate scores. The grand ranking loses meaning."
+    },
+    "synthesis": [
+      {
+        "zh": "事实错误、过时、胡编被分开打分，总榜失去意义。",
+        "en": "Factual errors, stale facts, and fabrications get separate scores. The grand ranking loses meaning."
+      }
+    ],
+    "sources": [
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "新基准把幻觉拆成三类错误",
+          "en": "New bench splits hallucinations into three error types"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260901-02-open-source",
+    "date": "2026-09-01",
+    "topicSlug": "open-source",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "开源推理引擎支持前缀缓存共享",
+      "en": "Open inference engines share prefix caches"
+    },
+    "dek": {
+      "zh": "同一条系统提示不再被每个请求重算一遍。",
+      "en": "The same system prompt is no longer recomputed per request."
+    },
+    "synthesis": [
+      {
+        "zh": "同一条系统提示不再被每个请求重算一遍。",
+        "en": "The same system prompt is no longer recomputed per request."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "开源推理引擎支持前缀缓存共享",
+          "en": "Open inference engines share prefix caches"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260901-m-safety",
+    "date": "2026-09-01",
+    "topicSlug": "safety",
+    "section": "more",
+    "title": {
+      "zh": "欧洲实验室公开红队日志格式",
+      "en": "European labs publish a red-team log format"
+    },
+    "dek": {
+      "zh": "可交换的攻击轨迹，比又一份原则声明有用。",
+      "en": "Exchangeable attack traces beat another principles note."
+    },
+    "synthesis": [
+      {
+        "zh": "可交换的攻击轨迹，比又一份原则声明有用。",
+        "en": "Exchangeable attack traces beat another principles note."
+      }
+    ],
+    "sources": [
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "欧洲实验室公开红队日志格式",
+          "en": "European labs publish a red-team log format"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260902-01-open-source",
+    "date": "2026-09-02",
+    "topicSlug": "open-source",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "律师把 Apache-2.0 和「可商用」拆开",
+      "en": "Lawyers split Apache-2.0 from “commercial use”"
+    },
+    "dek": {
+      "zh": "能跑权重不代表能卖服务。模型卡开始写禁止项。",
+      "en": "Runnable weights are not a license to sell a service. Model cards grow a prohibitions list."
+    },
+    "synthesis": [
+      {
+        "zh": "能跑权重不代表能卖服务。模型卡开始写禁止项。",
+        "en": "Runnable weights are not a license to sell a service. Model cards grow a prohibitions list."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Hugging Face",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "Reuters",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "律师把 Apache-2.0 和「可商用」拆开",
+          "en": "Lawyers split Apache-2.0 from “commercial use”"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260902-02-policy",
+    "date": "2026-09-02",
+    "topicSlug": "policy",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "权重发布开始写地域限制",
+      "en": "Weight releases start listing regional limits"
+    },
+    "dek": {
+      "zh": "下载按钮旁边出现一张地图，这比许可证更难绕。",
+      "en": "A map appears next to the download button. That is harder to route around than a license."
+    },
+    "synthesis": [
+      {
+        "zh": "下载按钮旁边出现一张地图，这比许可证更难绕。",
+        "en": "A map appears next to the download button. That is harder to route around than a license."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "权重发布开始写地域限制",
+          "en": "Weight releases start listing regional limits"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260902-m-open-source",
+    "date": "2026-09-02",
+    "topicSlug": "open-source",
+    "section": "more",
+    "title": {
+      "zh": "社区复现被条款拦在模型卡外",
+      "en": "Replications stall outside the model card"
+    },
+    "dek": {
+      "zh": "脚本齐了，法律意见不齐。",
+      "en": "The scripts are ready. The legal memo is not."
+    },
+    "synthesis": [
+      {
+        "zh": "脚本齐了，法律意见不齐。",
+        "en": "The scripts are ready. The legal memo is not."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "社区复现被条款拦在模型卡外",
+          "en": "Replications stall outside the model card"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260903-01-chips",
+    "date": "2026-09-03",
+    "topicSlug": "chips",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "批处理折扣写进默认价目表",
+      "en": "Batch discounts enter the default price list"
+    },
+    "dek": {
+      "zh": "异步任务终于有了正式价格，而不只是内部优惠。",
+      "en": "Async jobs finally have a public price, not a private discount."
+    },
+    "synthesis": [
+      {
+        "zh": "异步任务终于有了正式价格，而不只是内部优惠。",
+        "en": "Async jobs finally have a public price, not a private discount."
+      }
+    ],
+    "sources": [
+      {
+        "name": "OpenAI Blog",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "The Verge",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "批处理折扣写进默认价目表",
+          "en": "Batch discounts enter the default price list"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260903-02-models",
+    "date": "2026-09-03",
+    "topicSlug": "models",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "长上下文缓存命中率成为新 KPI",
+      "en": "Long-context cache hit rate becomes a KPI"
+    },
+    "dek": {
+      "zh": "省钱不靠更短的提示，靠提示被重复用。",
+      "en": "Savings come from reuse, not from shorter prompts."
+    },
+    "synthesis": [
+      {
+        "zh": "省钱不靠更短的提示，靠提示被重复用。",
+        "en": "Savings come from reuse, not from shorter prompts."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "长上下文缓存命中率成为新 KPI",
+          "en": "Long-context cache hit rate becomes a KPI"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260903-m-industry-cn",
+    "date": "2026-09-03",
+    "topicSlug": "industry-cn",
+    "section": "more",
+    "title": {
+      "zh": "中文云厂商跟进夜间闲时价",
+      "en": "Chinese clouds follow with off-peak night rates"
+    },
+    "dek": {
+      "zh": "训练可以等夜里，推理不行。价格开始承认这件事。",
+      "en": "Training can wait for night. Inference cannot. Pricing starts to admit it."
+    },
+    "synthesis": [
+      {
+        "zh": "训练可以等夜里，推理不行。价格开始承认这件事。",
+        "en": "Training can wait for night. Inference cannot. Pricing starts to admit it."
+      }
+    ],
+    "sources": [
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "中文云厂商跟进夜间闲时价",
+          "en": "Chinese clouds follow with off-peak night rates"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260904-01-agents",
+    "date": "2026-09-04",
+    "topicSlug": "agents",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "办公套件把表格邮件日历串成一条工具链",
+      "en": "Office suites chain sheets, mail, and calendar into one tool path"
+    },
+    "dek": {
+      "zh": "演示能改三份文件。审计日志还是空的。",
+      "en": "The demo can touch three files. The audit log is still empty."
+    },
+    "synthesis": [
+      {
+        "zh": "演示能改三份文件。审计日志还是空的。",
+        "en": "The demo can touch three files. The audit log is still empty."
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Verge",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "办公套件把表格邮件日历串成一条工具链",
+          "en": "Office suites chain sheets, mail, and calendar into one tool path"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260904-02-safety",
+    "date": "2026-09-04",
+    "topicSlug": "safety",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "代理权限包开始按部门卖",
+      "en": "Agent permission packs go on sale by department"
+    },
+    "dek": {
+      "zh": "市场部能发邮件，财务不能。这是产品，也是事故预演。",
+      "en": "Marketing can send mail. Finance cannot. It is a product, and an incident rehearsal."
+    },
+    "synthesis": [
+      {
+        "zh": "市场部能发邮件，财务不能。这是产品，也是事故预演。",
+        "en": "Marketing can send mail. Finance cannot. It is a product, and an incident rehearsal."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wired",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "代理权限包开始按部门卖",
+          "en": "Agent permission packs go on sale by department"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260904-m-agents",
+    "date": "2026-09-04",
+    "topicSlug": "agents",
+    "section": "more",
+    "title": {
+      "zh": "中文办公套件推出「代办权限包」",
+      "en": "Chinese office suites ship delegated-permission packs"
+    },
+    "dek": {
+      "zh": "授权粒度写到了文件夹，而不是整盘。",
+      "en": "Delegation is scoped to a folder, not the whole drive."
+    },
+    "synthesis": [
+      {
+        "zh": "授权粒度写到了文件夹，而不是整盘。",
+        "en": "Delegation is scoped to a folder, not the whole drive."
+      }
+    ],
+    "sources": [
+      {
+        "name": "晚点",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "中文办公套件推出「代办权限包」",
+          "en": "Chinese office suites ship delegated-permission packs"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260905-01-policy",
+    "date": "2026-09-05",
+    "topicSlug": "policy",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "通用模型义务草稿开始互抄附录",
+      "en": "GPAI drafts start copying each other’s annexes"
+    },
+    "dek": {
+      "zh": "口径在对齐，定义还没有。",
+      "en": "The tone is aligning. The definitions are not."
+    },
+    "synthesis": [
+      {
+        "zh": "口径在对齐，定义还没有。",
+        "en": "The tone is aligning. The definitions are not."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "European Commission",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "通用模型义务草稿开始互抄附录",
+          "en": "GPAI drafts start copying each other’s annexes"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260905-02-open-source",
+    "date": "2026-09-05",
+    "topicSlug": "open-source",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "开源豁免边界比禁令更惹火",
+      "en": "Open-source exemptions draw more heat than bans"
+    },
+    "dek": {
+      "zh": "吵的不是能不能做，是谁算提供方。",
+      "en": "The fight is not “may we.” It is “who is a provider.”"
+    },
+    "synthesis": [
+      {
+        "zh": "吵的不是能不能做，是谁算提供方。",
+        "en": "The fight is not “may we.” It is “who is a provider.”"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Hugging Face",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "开源豁免边界比禁令更惹火",
+          "en": "Open-source exemptions draw more heat than bans"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260905-m-policy",
+    "date": "2026-09-05",
+    "topicSlug": "policy",
+    "section": "more",
+    "title": {
+      "zh": "企业法务要一份上线清单，没人给得出",
+      "en": "Counsel wants a ship list; nobody has one"
+    },
+    "dek": {
+      "zh": "合规团队开始自己画红黄绿。",
+      "en": "Compliance teams start drawing their own red / amber / green."
+    },
+    "synthesis": [
+      {
+        "zh": "合规团队开始自己画红黄绿。",
+        "en": "Compliance teams start drawing their own red / amber / green."
+      }
+    ],
+    "sources": [
+      {
+        "name": "财新",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "企业法务要一份上线清单，没人给得出",
+          "en": "Counsel wants a ship list; nobody has one"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260906-01-research",
+    "date": "2026-09-06",
+    "topicSlug": "research",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "非自回归解码在补全延迟上第一次像样",
+      "en": "Non-autoregressive decoding looks serious on completion latency"
+    },
+    "dek": {
+      "zh": "周末论文把尾延迟写进主表，而不是附录。",
+      "en": "A Sunday paper puts tail latency in the main table, not the appendix."
+    },
+    "synthesis": [
+      {
+        "zh": "周末论文把尾延迟写进主表，而不是附录。",
+        "en": "A Sunday paper puts tail latency in the main table, not the appendix."
+      }
+    ],
+    "sources": [
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "非自回归解码在补全延迟上第一次像样",
+          "en": "Non-autoregressive decoding looks serious on completion latency"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260906-02-robotics",
+    "date": "2026-09-06",
+    "topicSlug": "robotics",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "机器人 VLA 把仓库拣选写成主任务",
+      "en": "Robot VLA papers make warehouse picking the headline task"
+    },
+    "dek": {
+      "zh": "家庭机器人新闻退到第二段。",
+      "en": "Home-robot news falls to paragraph two."
+    },
+    "synthesis": [
+      {
+        "zh": "家庭机器人新闻退到第二段。",
+        "en": "Home-robot news falls to paragraph two."
+      }
+    ],
+    "sources": [
+      {
+        "name": "DeepMind",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "TechCrunch",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "机器人 VLA 把仓库拣选写成主任务",
+          "en": "Robot VLA papers make warehouse picking the headline task"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260906-m-open-source",
+    "date": "2026-09-06",
+    "topicSlug": "open-source",
+    "section": "more",
+    "title": {
+      "zh": "中文预训练数据清洗方法被单独开源",
+      "en": "Chinese pretraining cleanup methods get their own release"
+    },
+    "dek": {
+      "zh": "这比再发一个 7B 更有复用价值。",
+      "en": "This is more reusable than another 7B dump."
+    },
+    "synthesis": [
+      {
+        "zh": "这比再发一个 7B 更有复用价值。",
+        "en": "This is more reusable than another 7B dump."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "中文预训练数据清洗方法被单独开源",
+          "en": "Chinese pretraining cleanup methods get their own release"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260907-01-on-device",
+    "date": "2026-09-07",
+    "topicSlug": "on-device",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "新运行时把 8B 首字延迟压进 200ms",
+      "en": "A new runtime pushes 8B time-to-first-token under 200ms"
+    },
+    "dek": {
+      "zh": "输入法能用了，聊天助手还要看热。",
+      "en": "Keyboards can use it. Chat assistants still depend on thermals."
+    },
+    "synthesis": [
+      {
+        "zh": "输入法能用了，聊天助手还要看热。",
+        "en": "Keyboards can use it. Chat assistants still depend on thermals."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "新运行时把 8B 首字延迟压进 200ms",
+          "en": "A new runtime pushes 8B time-to-first-token under 200ms"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260907-02-on-device",
+    "date": "2026-09-07",
+    "topicSlug": "on-device",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "手机系统设置出现「本地模型」",
+      "en": "Phone settings gain a “local model” row"
+    },
+    "dek": {
+      "zh": "这标志着端侧从应用功能变成系统能力。",
+      "en": "On-device moves from an app feature to a system capability."
+    },
+    "synthesis": [
+      {
+        "zh": "这标志着端侧从应用功能变成系统能力。",
+        "en": "On-device moves from an app feature to a system capability."
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Verge",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "手机系统设置出现「本地模型」",
+          "en": "Phone settings gain a “local model” row"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260907-m-chips",
+    "date": "2026-09-07",
+    "topicSlug": "chips",
+    "section": "more",
+    "title": {
+      "zh": "开发者文档把 GPU、NPU、CPU 写成三套后端",
+      "en": "Docs list GPU, NPU, and CPU as three backends"
+    },
+    "dek": {
+      "zh": "调度策略比模型选择更难讲清楚。",
+      "en": "Scheduling is harder to explain than model choice."
+    },
+    "synthesis": [
+      {
+        "zh": "调度策略比模型选择更难讲清楚。",
+        "en": "Scheduling is harder to explain than model choice."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "开发者文档把 GPU、NPU、CPU 写成三套后端",
+          "en": "Docs list GPU, NPU, and CPU as three backends"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260908-01-chips",
+    "date": "2026-09-08",
+    "topicSlug": "chips",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "两家云把 Q4 训练集群再往后推",
+      "en": "Two clouds slip Q4 training clusters again"
+    },
+    "dek": {
+      "zh": "参数规模新闻让位给到货日期。",
+      "en": "Parameter-count news yields to arrival dates."
+    },
+    "synthesis": [
+      {
+        "zh": "参数规模新闻让位给到货日期。",
+        "en": "Parameter-count news yields to arrival dates."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "财新",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "两家云把 Q4 训练集群再往后推",
+          "en": "Two clouds slip Q4 training clusters again"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260908-02-chips",
+    "date": "2026-09-08",
+    "topicSlug": "chips",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "二手 A100 价格反过来涨",
+      "en": "Used A100 prices tick up"
+    },
+    "dek": {
+      "zh": "旧卡成为对冲，不是淘汰品。",
+      "en": "Old cards become a hedge, not scrap."
+    },
+    "synthesis": [
+      {
+        "zh": "旧卡成为对冲，不是淘汰品。",
+        "en": "Old cards become a hedge, not scrap."
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Information",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "二手 A100 价格反过来涨",
+          "en": "Used A100 prices tick up"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260908-m-industry-cn",
+    "date": "2026-09-08",
+    "topicSlug": "industry-cn",
+    "section": "more",
+    "title": {
+      "zh": "国内液冷机柜订单被提前锁",
+      "en": "Domestic liquid-cooling racks get locked early"
+    },
+    "dek": {
+      "zh": "供电和制冷比芯片本身更早成为瓶颈。",
+      "en": "Power and cooling bottleneck before the chips do."
+    },
+    "synthesis": [
+      {
+        "zh": "供电和制冷比芯片本身更早成为瓶颈。",
+        "en": "Power and cooling bottleneck before the chips do."
+      }
+    ],
+    "sources": [
+      {
+        "name": "财新",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "国内液冷机柜订单被提前锁",
+          "en": "Domestic liquid-cooling racks get locked early"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260909-01-industry-cn",
+    "date": "2026-09-09",
+    "topicSlug": "industry-cn",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "采购清单把私有化部署写成第一行",
+      "en": "Procurement puts private deployment on line one"
+    },
+    "dek": {
+      "zh": "分数变成附录，部署形态变成标题。",
+      "en": "Scores fall to the appendix. Deployment shape becomes the title."
+    },
+    "synthesis": [
+      {
+        "zh": "分数变成附录，部署形态变成标题。",
+        "en": "Scores fall to the appendix. Deployment shape becomes the title."
+      }
+    ],
+    "sources": [
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "晚点",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "采购清单把私有化部署写成第一行",
+          "en": "Procurement puts private deployment on line one"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260909-02-models",
+    "date": "2026-09-09",
+    "topicSlug": "models",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "客服质检和公文草稿成为可签场景",
+      "en": "Support QA and memo drafts become signable scenes"
+    },
+    "dek": {
+      "zh": "能进合同的不是通用聊天，是有工单的流程。",
+      "en": "What enters a contract is not general chat. It is a ticketed workflow."
+    },
+    "synthesis": [
+      {
+        "zh": "能进合同的不是通用聊天，是有工单的流程。",
+        "en": "What enters a contract is not general chat. It is a ticketed workflow."
+      }
+    ],
+    "sources": [
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "客服质检和公文草稿成为可签场景",
+          "en": "Support QA and memo drafts become signable scenes"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260909-m-open-source",
+    "date": "2026-09-09",
+    "topicSlug": "open-source",
+    "section": "more",
+    "title": {
+      "zh": "开源权重被用来压价，而不是上生产",
+      "en": "Open weights are used to beat down price, not to ship"
+    },
+    "dek": {
+      "zh": "谈判桌上的对照物，未必会进机房。",
+      "en": "The comparison object on the table may never enter the room."
+    },
+    "synthesis": [
+      {
+        "zh": "谈判桌上的对照物，未必会进机房。",
+        "en": "The comparison object on the table may never enter the room."
+      }
+    ],
+    "sources": [
+      {
+        "name": "晚点",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "开源权重被用来压价，而不是上生产",
+          "en": "Open weights are used to beat down price, not to ship"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260910-01-safety",
+    "date": "2026-09-10",
+    "topicSlug": "safety",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "跨会话记忆被单独列进红队范围",
+      "en": "Cross-session memory is listed as its own red-team surface"
+    },
+    "dek": {
+      "zh": "攻击的是画像，不是单次提示。",
+      "en": "The attack is the profile, not a single prompt."
+    },
+    "synthesis": [
+      {
+        "zh": "攻击的是画像，不是单次提示。",
+        "en": "The attack is the profile, not a single prompt."
+      }
+    ],
+    "sources": [
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "Wired",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "跨会话记忆被单独列进红队范围",
+          "en": "Cross-session memory is listed as its own red-team surface"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260910-02-safety",
+    "date": "2026-09-10",
+    "topicSlug": "safety",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "越狱套件开始打长期用户画像",
+      "en": "Jailbreak kits start targeting long-term user profiles"
+    },
+    "dek": {
+      "zh": "今天套一套，下周用你自己的偏好打你。",
+      "en": "Probe this week, then use your own preferences against you next week."
+    },
+    "synthesis": [
+      {
+        "zh": "今天套一套，下周用你自己的偏好打你。",
+        "en": "Probe this week, then use your own preferences against you next week."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "越狱套件开始打长期用户画像",
+          "en": "Jailbreak kits start targeting long-term user profiles"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260910-m-policy",
+    "date": "2026-09-10",
+    "topicSlug": "policy",
+    "section": "more",
+    "title": {
+      "zh": "企业同时要关闭、导出和删除",
+      "en": "Enterprises want off, export, and delete together"
+    },
+    "dek": {
+      "zh": "三件套缺一，合同就卡着。",
+      "en": "Missing any of the three stalls the contract."
+    },
+    "synthesis": [
+      {
+        "zh": "三件套缺一，合同就卡着。",
+        "en": "Missing any of the three stalls the contract."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "企业同时要关闭、导出和删除",
+          "en": "Enterprises want off, export, and delete together"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260911-02-policy",
+    "date": "2026-09-11",
+    "topicSlug": "policy",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "采购合同出现「默记关闭」条款",
+      "en": "Procurement contracts add a default-memory-off clause"
+    },
+    "dek": {
+      "zh": "产品还没上线，法务已经在改模板。",
+      "en": "The product is not live yet. Counsel is already editing the template."
+    },
+    "synthesis": [
+      {
+        "zh": "产品还没上线，法务已经在改模板。",
+        "en": "The product is not live yet. Counsel is already editing the template."
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Information",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "36氪",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "采购合同出现「默记关闭」条款",
+          "en": "Procurement contracts add a default-memory-off clause"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260911-03-models",
+    "date": "2026-09-11",
+    "topicSlug": "models",
+    "rank": 3,
+    "section": "must",
+    "title": {
+      "zh": "消费级助手把「记得我」写成默认能力",
+      "en": "Consumer assistants make “it remembers me” a default"
+    },
+    "dek": {
+      "zh": "个人向产品在训练用户习惯，企业向产品在训练关闭。",
+      "en": "Consumer products train the habit on. Enterprise products train the habit off."
+    },
+    "synthesis": [
+      {
+        "zh": "个人向产品在训练用户习惯，企业向产品在训练关闭。",
+        "en": "Consumer products train the habit on. Enterprise products train the habit off."
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Verge",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "量子位",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "消费级助手把「记得我」写成默认能力",
+          "en": "Consumer assistants make “it remembers me” a default"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260912-01-open-source",
+    "date": "2026-09-12",
+    "topicSlug": "open-source",
+    "rank": 1,
+    "section": "must",
+    "title": {
+      "zh": "两套开源引擎在同一张 H100 上对打",
+      "en": "Two open engines fight on the same H100"
+    },
+    "dek": {
+      "zh": "数字打到小数点后两位，配置差异被故意写小。",
+      "en": "Numbers go to two decimals. Config differences are written small on purpose."
+    },
+    "synthesis": [
+      {
+        "zh": "数字打到小数点后两位，配置差异被故意写小。",
+        "en": "Numbers go to two decimals. Config differences are written small on purpose."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "Hacker News",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "两套开源引擎在同一张 H100 上对打",
+          "en": "Two open engines fight on the same H100"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260912-02-open-source",
+    "date": "2026-09-12",
+    "topicSlug": "open-source",
+    "rank": 2,
+    "section": "must",
+    "title": {
+      "zh": "前缀缓存和投机解码被写成默认",
+      "en": "Prefix cache and speculative decoding become defaults"
+    },
+    "dek": {
+      "zh": "关闭它们才能复现「官方延迟」。",
+      "en": "You have to turn them off to reproduce the “official” latency."
+    },
+    "synthesis": [
+      {
+        "zh": "关闭它们才能复现「官方延迟」。",
+        "en": "You have to turn them off to reproduce the “official” latency."
+      }
+    ],
+    "sources": [
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "arXiv",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "前缀缓存和投机解码被写成默认",
+          "en": "Prefix cache and speculative decoding become defaults"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "20260912-m-chips",
+    "date": "2026-09-12",
+    "topicSlug": "chips",
+    "section": "more",
+    "title": {
+      "zh": "中文社区给国产卡写推理后端",
+      "en": "Chinese community backends appear for domestic accelerators"
+    },
+    "dek": {
+      "zh": "这是适配新闻，也是供应新闻。",
+      "en": "It is an adapter story, and a supply story."
+    },
+    "synthesis": [
+      {
+        "zh": "这是适配新闻，也是供应新闻。",
+        "en": "It is an adapter story, and a supply story."
+      }
+    ],
+    "sources": [
+      {
+        "name": "机器之心",
+        "lang": "zh",
+        "kind": {
+          "zh": "媒体",
+          "en": "媒体"
+        },
+        "time": "06:40"
+      },
+      {
+        "name": "GitHub",
+        "lang": "en",
+        "kind": {
+          "zh": "Press",
+          "en": "Press"
+        },
+        "time": "07:10"
+      }
+    ],
+    "timeline": [
+      {
+        "time": "07:00",
+        "text": {
+          "zh": "中文社区给国产卡写推理后端",
+          "en": "Chinese community backends appear for domestic accelerators"
+        }
+      }
+    ]
+  }
+]

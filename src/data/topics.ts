@@ -1,5 +1,5 @@
 import { tx } from "./text";
-import type { Source, Topic } from "./types";
+import type { Source, MockTopic as Topic } from "./types";
 
 export const topics: Topic[] = [
   { slug: "models", name: tx("模型发布", "Model launches"), blurb: tx("GPT-5.5 降价 · Claude 记忆层", "GPT-5.5 price cut · Claude memory") },

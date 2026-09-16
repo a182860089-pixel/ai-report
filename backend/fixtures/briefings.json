@@ -1,0 +1,856 @@
+[
+  {
+    "date": "2026-09-01",
+    "weekday": {
+      "zh": "星期二",
+      "en": "Tuesday"
+    },
+    "updatedAt": "07:08",
+    "title": {
+      "zh": "新基准周拉开：幻觉被拆开打分",
+      "en": "Eval week opens: hallucinations get split scores"
+    },
+    "lede": [
+      {
+        "zh": "新套件把幻觉拆成三类错误，实验室终于能互相比。",
+        "en": "A new suite splits hallucinations into three error types."
+      },
+      {
+        "zh": "开源推理引擎开始共享前缀缓存。",
+        "en": "Open inference engines start sharing prefix caches."
+      },
+      {
+        "zh": "欧洲实验室公开红队日志格式。",
+        "en": "European labs publish a red-team log format."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 评测",
+      "en": "More · Evals"
+    },
+    "pulse": {
+      "clusters": 11,
+      "articles": 72,
+      "zhEn": "3 : 2",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "研究",
+            "en": "Research"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "智能体",
+            "en": "Agents"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "weekday": {
+      "zh": "星期三",
+      "en": "Wednesday"
+    },
+    "updatedAt": "07:04",
+    "title": {
+      "zh": "开源许可再起争执：能跑不等于能卖",
+      "en": "Licenses flare again: runnable is not sellable"
+    },
+    "lede": [
+      {
+        "zh": "律师把 Apache-2.0 和「可商用」重新拆开。",
+        "en": "Lawyers split Apache-2.0 from “commercial use” again."
+      },
+      {
+        "zh": "社区复现被条款拦在模型卡外。",
+        "en": "Replications stall on model-card clauses."
+      },
+      {
+        "zh": "权重发布开始写地域限制。",
+        "en": "Weight releases start listing regional limits."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 开源",
+      "en": "More · Open source"
+    },
+    "pulse": {
+      "clusters": 9,
+      "articles": 61,
+      "zhEn": "1 : 1",
+      "healthy": 25,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "政策",
+            "en": "Policy"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "中文产业",
+            "en": "China industry"
+          },
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "weekday": {
+      "zh": "星期四",
+      "en": "Thursday"
+    },
+    "updatedAt": "07:15",
+    "title": {
+      "zh": "推理成本被重新计价",
+      "en": "Inference gets repriced"
+    },
+    "lede": [
+      {
+        "zh": "批处理折扣从实验区挪进默认价目表。",
+        "en": "Batch discounts move from labs into default price lists."
+      },
+      {
+        "zh": "长上下文缓存命中率成为新 KPI。",
+        "en": "Long-context cache hit rate becomes a KPI."
+      },
+      {
+        "zh": "中文云厂商跟进夜间闲时价。",
+        "en": "Chinese clouds follow with off-peak night rates."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 基础设施",
+      "en": "More · Infra"
+    },
+    "pulse": {
+      "clusters": 8,
+      "articles": 58,
+      "zhEn": "2 : 3",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "芯片",
+            "en": "Chips"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "模型发布",
+            "en": "Model launches"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "中文产业",
+            "en": "China industry"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "weekday": {
+      "zh": "星期五",
+      "en": "Friday"
+    },
+    "updatedAt": "07:11",
+    "title": {
+      "zh": "多模态代理挤进办公套件",
+      "en": "Multimodal agents push into office suites"
+    },
+    "lede": [
+      {
+        "zh": "表格、邮件、日历被同一条工具链串起来。",
+        "en": "Sheets, mail, and calendar share one tool chain."
+      },
+      {
+        "zh": "演示很满，审计日志仍然空。",
+        "en": "Demos are full; audit logs are still empty."
+      },
+      {
+        "zh": "中文办公套件开始卖「代办权限包」。",
+        "en": "Chinese office suites start selling delegated-permission packs."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 产品",
+      "en": "More · Product"
+    },
+    "pulse": {
+      "clusters": 12,
+      "articles": 80,
+      "zhEn": "4 : 3",
+      "healthy": 25,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "智能体",
+            "en": "Agents"
+          },
+          "count": 5
+        },
+        {
+          "name": {
+            "zh": "模型发布",
+            "en": "Model launches"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "安全",
+            "en": "Safety"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "weekday": {
+      "zh": "星期六",
+      "en": "Saturday"
+    },
+    "updatedAt": "07:02",
+    "title": {
+      "zh": "监管口径开始对齐，定义仍在打架",
+      "en": "Regulators align on tone, not definitions"
+    },
+    "lede": [
+      {
+        "zh": "通用模型义务的草稿开始互相抄附录。",
+        "en": "GPAI drafts start copying each other’s annexes."
+      },
+      {
+        "zh": "开源豁免的边界比禁令更惹火。",
+        "en": "Open-source exemptions draw more heat than bans."
+      },
+      {
+        "zh": "企业法务要一份「能不能上线」的清单，没有人给得出。",
+        "en": "Counsel wants a ship / no-ship list. Nobody has one."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 政策",
+      "en": "More · Policy"
+    },
+    "pulse": {
+      "clusters": 7,
+      "articles": 49,
+      "zhEn": "2 : 5",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "政策",
+            "en": "Policy"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "安全",
+            "en": "Safety"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-06",
+    "weekday": {
+      "zh": "星期日",
+      "en": "Sunday"
+    },
+    "updatedAt": "07:00",
+    "title": {
+      "zh": "周末论文潮：扩散模型改去代码",
+      "en": "Sunday papers: diffusion models go after code"
+    },
+    "lede": [
+      {
+        "zh": "非自回归解码在补全延迟上第一次像样。",
+        "en": "Non-autoregressive decoding looks serious on completion latency."
+      },
+      {
+        "zh": "机器人 VLA 论文把仓库拣选写成主任务。",
+        "en": "Robot VLA papers make warehouse picking the headline task."
+      },
+      {
+        "zh": "中文预训练数据清洗方法被单独开源。",
+        "en": "Chinese pretraining cleanup methods get their own release."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 论文",
+      "en": "More · Papers"
+    },
+    "pulse": {
+      "clusters": 6,
+      "articles": 44,
+      "zhEn": "1 : 4",
+      "healthy": 23,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "研究",
+            "en": "Research"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "机器人",
+            "en": "Robotics"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "weekday": {
+      "zh": "星期一",
+      "en": "Monday"
+    },
+    "updatedAt": "07:09",
+    "title": {
+      "zh": "端侧运行时换代，NPU 抢调度权",
+      "en": "On-device runtimes turn over; NPUs grab the scheduler"
+    },
+    "lede": [
+      {
+        "zh": "新运行时把 8B 模型的首字延迟压进 200ms。",
+        "en": "A new runtime pushes 8B time-to-first-token under 200ms."
+      },
+      {
+        "zh": "手机厂商开始在系统设置里暴露「本地模型」。",
+        "en": "Phone makers expose “local model” in system settings."
+      },
+      {
+        "zh": "开发者文档把 GPU、NPU、CPU 写成三套后端。",
+        "en": "Docs now list GPU, NPU, and CPU as three backends."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 端侧",
+      "en": "More · On-device"
+    },
+    "pulse": {
+      "clusters": 10,
+      "articles": 66,
+      "zhEn": "3 : 2",
+      "healthy": 25,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "端侧",
+            "en": "On-device"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "芯片",
+            "en": "Chips"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "weekday": {
+      "zh": "星期二",
+      "en": "Tuesday"
+    },
+    "updatedAt": "07:06",
+    "title": {
+      "zh": "训练集群交付延期，供应新闻压过参数新闻",
+      "en": "Cluster slips: supply beats parameter counts"
+    },
+    "lede": [
+      {
+        "zh": "两家云把 Q4 训练集群交付再往后推。",
+        "en": "Two clouds slip Q4 training-cluster delivery again."
+      },
+      {
+        "zh": "二手 A100 价格反过来涨。",
+        "en": "Used A100 prices tick up."
+      },
+      {
+        "zh": "国内液冷机柜订单被提前锁。",
+        "en": "Domestic liquid-cooling racks get locked early."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 供应",
+      "en": "More · Supply"
+    },
+    "pulse": {
+      "clusters": 13,
+      "articles": 77,
+      "zhEn": "5 : 4",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "芯片",
+            "en": "Chips"
+          },
+          "count": 5
+        },
+        {
+          "name": {
+            "zh": "中文产业",
+            "en": "China industry"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "政策",
+            "en": "Policy"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "weekday": {
+      "zh": "星期三",
+      "en": "Wednesday"
+    },
+    "updatedAt": "07:13",
+    "title": {
+      "zh": "中文模型抢企业合同，基准分数退居附录",
+      "en": "Chinese models hunt contracts; benches fall to the appendix"
+    },
+    "lede": [
+      {
+        "zh": "采购清单把私有化部署写成第一行。",
+        "en": "Procurement lists put private deployment on line one."
+      },
+      {
+        "zh": "客服质检和公文草稿成了可签的场景。",
+        "en": "QA for support and draft memos become signable scenes."
+      },
+      {
+        "zh": "开源权重被用来压价，而不是上生产。",
+        "en": "Open weights are used to beat down price, not to ship."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 产业",
+      "en": "More · Industry"
+    },
+    "pulse": {
+      "clusters": 9,
+      "articles": 63,
+      "zhEn": "5 : 2",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "中文产业",
+            "en": "China industry"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "模型发布",
+            "en": "Model launches"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "weekday": {
+      "zh": "星期四",
+      "en": "Thursday"
+    },
+    "updatedAt": "07:07",
+    "title": {
+      "zh": "安全评测集中发布，记忆功能被写成威胁模型",
+      "en": "Safety evals land; memory becomes a threat model"
+    },
+    "lede": [
+      {
+        "zh": "跨会话记忆第一次被单独列进红队范围。",
+        "en": "Cross-session memory is listed as its own red-team surface."
+      },
+      {
+        "zh": "越狱套件开始打「长期用户画像」。",
+        "en": "Jailbreak kits start targeting long-term user profiles."
+      },
+      {
+        "zh": "企业要可关、可导出、可删除，三件事一起要。",
+        "en": "Enterprises want off, export, and delete — all three."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 安全",
+      "en": "More · Safety"
+    },
+    "pulse": {
+      "clusters": 8,
+      "articles": 55,
+      "zhEn": "2 : 3",
+      "healthy": 25,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "安全",
+            "en": "Safety"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "政策",
+            "en": "Policy"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "产品",
+            "en": "Product"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "weekday": {
+      "zh": "星期五",
+      "en": "Friday"
+    },
+    "updatedAt": "07:16",
+    "title": {
+      "zh": "记忆功能变成合规问题",
+      "en": "Memory turns into a compliance problem"
+    },
+    "lede": [
+      {
+        "zh": "Anthropic 企业控制台增加数据保留开关。",
+        "en": "Anthropic adds retention controls to the enterprise console."
+      },
+      {
+        "zh": "隐私论文开始把跨会话记忆写成独立题目。",
+        "en": "Privacy papers start treating cross-session memory as its own topic."
+      },
+      {
+        "zh": "采购合同出现「默记关闭」条款。",
+        "en": "Procurement contracts add a default-memory-off clause."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 合规",
+      "en": "More · Compliance"
+    },
+    "pulse": {
+      "clusters": 11,
+      "articles": 70,
+      "zhEn": "3 : 4",
+      "healthy": 25,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "安全",
+            "en": "Safety"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "政策",
+            "en": "Policy"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "模型发布",
+            "en": "Model launches"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "weekday": {
+      "zh": "星期六",
+      "en": "Saturday"
+    },
+    "updatedAt": "07:03",
+    "title": {
+      "zh": "开源推理引擎对打，吞吐数字满天飞",
+      "en": "Open inference engines trade blows; throughput numbers fly"
+    },
+    "lede": [
+      {
+        "zh": "两套引擎在同一张 H100 上把数字打到小数点后两位。",
+        "en": "Two engines fight to two decimal places on the same H100."
+      },
+      {
+        "zh": "前缀缓存和投机解码被写成默认。",
+        "en": "Prefix cache and speculative decoding become defaults."
+      },
+      {
+        "zh": "中文社区开始给国产卡写后端。",
+        "en": "Chinese community backends appear for domestic accelerators."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 推理",
+      "en": "More · Inference"
+    },
+    "pulse": {
+      "clusters": 10,
+      "articles": 64,
+      "zhEn": "4 : 3",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "芯片",
+            "en": "Chips"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "研究",
+            "en": "Research"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-13",
+    "weekday": {
+      "zh": "星期日",
+      "en": "Sunday"
+    },
+    "updatedAt": "07:10",
+    "title": {
+      "zh": "端侧小模型挤进 IDE",
+      "en": "Tiny on-device models squeeze into IDEs"
+    },
+    "lede": [
+      {
+        "zh": "补全不再必须出公网。本地 8B 被写进编辑器设置。",
+        "en": "Completion no longer needs the public net. Local 8B lands in editor settings."
+      },
+      {
+        "zh": "隐私团队把「代码不离机」当成可卖的开关。",
+        "en": "Privacy teams sell “code never leaves the machine” as a switch."
+      },
+      {
+        "zh": "离线 Agent 开始在无网环境跑测试。",
+        "en": "Offline agents start running tests with the network down."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 开发者工具",
+      "en": "More · Developer tools"
+    },
+    "pulse": {
+      "clusters": 9,
+      "articles": 59,
+      "zhEn": "3 : 2",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "端侧",
+            "en": "On-device"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "智能体",
+            "en": "Agents"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "安全",
+            "en": "Safety"
+          },
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "weekday": {
+      "zh": "星期一",
+      "en": "Monday"
+    },
+    "updatedAt": "07:12",
+    "title": {
+      "zh": "发布周对撞：闭源降价，开源抢榜",
+      "en": "Launch week collision: closed models cut price, open weights grab the board"
+    },
+    "lede": [
+      {
+        "zh": "OpenAI 把 GPT-5.5 长上下文默认开到 1M，推理价腰斩。",
+        "en": "OpenAI makes 1M context the GPT-5.5 default and halves inference price."
+      },
+      {
+        "zh": "Anthropic 上线跨会话记忆，企业默认关闭。",
+        "en": "Anthropic ships cross-session memory, off by default for enterprises."
+      },
+      {
+        "zh": "Kimi 新权重部分开源，LMSYS 冲进前五。",
+        "en": "Kimi partially open-sources new weights and cracks LMSYS top five."
+      }
+    ],
+    "moreHeading": {
+      "zh": "更多 · 开源与研究",
+      "en": "More · Open source & research"
+    },
+    "pulse": {
+      "clusters": 14,
+      "articles": 86,
+      "zhEn": "4 : 3",
+      "healthy": 24,
+      "totalSources": 26,
+      "topics": [
+        {
+          "name": {
+            "zh": "模型发布",
+            "en": "Model launches"
+          },
+          "count": 4
+        },
+        {
+          "name": {
+            "zh": "开源权重",
+            "en": "Open weights"
+          },
+          "count": 3
+        },
+        {
+          "name": {
+            "zh": "芯片供应",
+            "en": "Chip supply"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "政策合规",
+            "en": "Policy"
+          },
+          "count": 2
+        },
+        {
+          "name": {
+            "zh": "机器人",
+            "en": "Robotics"
+          },
+          "count": 1
+        }
+      ]
+    }
+  }
+]

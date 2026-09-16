@@ -7,3 +7,20 @@ out
 tsconfig.tsbuildinfo
 .skills/
 codex-plugin-build-polished-app-ui/
+_tmp_export/
+backend/.venv/
+backend/.env
+**/__pycache__/
+**/.pytest_cache/
+backend/.pg/
+# secrets / local junk — never push
+.env
+password.txt
+deploy/.env
+wshobson-agents/
+_chk.py
+_fix_page.py
+_tmp_write/
+_tmp_write_exceptions.py
+_deploy_vps.py
+_poll_vps.py

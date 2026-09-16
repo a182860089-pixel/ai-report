@@ -1,5 +1,5 @@
 import { src, tx } from "./text";
-import type { Story } from "./types";
+import type { MockStory as Story } from "./types";
 
 type Row = [
   date: string,
